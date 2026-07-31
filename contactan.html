@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body{background-color: white;}
+    header{background-color: rgb(94, 139, 50);text-align: center;}
+    h1{text-align: center;color: white;font-style: italic;}
+    form{background-color:rgb(204, 233, 181);
+      width: 900px;
+      text-align: center;
+  max-width: 500px;
+  margin: 0 auto; 
+  padding: 20px;
+  border-radius: 8px;
+border: solid rgb(51, 38, 7);;}
+    table{text-align: center;}
+    label{color:rgb(51, 38, 7);font-size: 20px;font-weight: bold;font-style: italic;}
+    input,select{border: solid white;border-radius: 10px;}
+    .zz{color:white;font-weight: bold; width: 180px;background-color:rgb(51, 38, 7);height: 30px;}
+    nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  background-color:rgb(94, 139, 50) ;
+  border: solid  rgb(94, 139, 50) ;;border-radius: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color:white;
+font-weight: bold;
+font-style: italic;
+font-size: 25px;
+}
+    </style>
+</head>
+<body>
+  <header>
+    <h1>📞 Contact Form</h1>
+  </header>
+  <form action="mailto:exemple@gmail.com" method="post">
+    <table>
+      <tr>
+        <td><label>Name:</label></td>
+        <td><input type="text" name="nom"></td>
+      </tr>
+      <tr>
+        <td><label>First Name:</label></td>
+        <td><input type="text" name="prenom"></td>
+      </tr>
+      <tr>
+        <td><label>Gender:</label></td>
+        <td>
+          <select name="genre">
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label>Phone:</label></td>
+        <td><input type="tel" name="telephone"></td>
+      </tr>
+      <tr>
+        <td><label>Email:</label></td>
+        <td><input type="email" name="email"></td>
+      </tr>
+      <tr>
+        <td><label>Project:</label></td>
+        <td>
+          <select name="projet">
+            <option>None</option>
+            <option>Crushing and Malaxation</option>
+            <option>Extraction</option>
+            <option>Filtration</option>
+            <option>Olive Oil</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="reset" value="Cancel" class="zz"></td>
+        <td><input type="submit" value="Send" class="zz"></td>
+      </tr>
+    </table>
+  </form>
+  <nav>
+    <ul>
+      <li><a href="accuielan.html">🏠 Home</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
